@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/978b4f8fd8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>R</span>ashid</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Rashid </span> From India</h1>
+            </div>
+        </div>
+    </div>
+   
+    <!-- About me    -->
+
+    <div class="" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a talented and innovative web designer with a passion for creating stunning digital experiences. With a wealth of experience in the field,
+                         combines technical expertise with a keen eye for design to craft visually captivating and user-friendly websites. <br> <br>
+
+                         With a deep understanding of current design trends and industry best practices, excels at transforming concepts into fully functional websites that
+                          engage and inspire.
+                          my creative approach to web design ensures that every project is unique, tailored to the specific needs and goals of my clients. <br> <br>
+
+                           I am proficient in a wide range of design tools and technologies, including HTML, CSS, JavaScript, and various content management systems (CMS). 
+                          They are adept at 
+                          creating responsive designs that seamlessly adapt to different screen sizes, ensuring optimal user experience across desktop, mobile, and tablet
+                           devices.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Wep/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Freelance Web Designer</li>
+                            <li><span>2022 - 2023</span><br>Web Designer at Fiver</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Web Design Training at Brototype</li>
+                            <li><span>2021</span><br>UI/UX Training at Tycha Creatives</li>
+                            <li><span>2020</span><br>B-Tech from Kerala Technological University</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------Services--------------->
+
+    <div class="" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Web design service offers stunning and user-friendly websites that captivate audiences, enhance branding, and drive online growth.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        UI/UX design  brings a seamless and intuitive user experience, enhancing engagement, conversions, and overall satisfaction for your website or app.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        App design  provides a competitive edge with user-centric interfaces, seamless navigation, and captivating visuals, maximizing user engagement and satisfaction.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!------------------Portfolio-------------------->
+
+<div class="" id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <iframe src="https://www.alzaamtravels.in/" frameborder="0"></iframe>
+                <a href="https://www.alzaamtravels.in/">View Fullscreen <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="work">
+                <iframe src="https://rashidrazm.github.io/cafe-bakery/" frameborder="0"></iframe>
+                <a href="https://rashidrazm.github.io/cafe-bakery/">View Fullscreen <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="work">
+                <iframe src="https://www.expertinteriors.in/" frameborder="0"></iframe>
+                <a href="https://www.expertinteriors.in/">View Fullscreen <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <iframe src="https://hiendstudio.com/?gclid=CjwKCAjw-b-kBhB-EiwA4fvKrAHdlUA3qfQWFSf9grFDNG48_RMV7VJ0uf6iV1hBD_A_C83iDvctYxoCcbkQAvD_BwE" frameborder="0"></iframe>
+                <a href="https://hiendstudio.com/?gclid=CjwKCAjw-b-kBhB-EiwA4fvKrAHdlUA3qfQWFSf9grFDNG48_RMV7VJ0uf6iV1hBD_A_C83iDvctYxoCcbkQAvD_BwE">View Fullscreen <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="work">
+                <iframe src="https://www.chocochi.com/" frameborder="0"></iframe>
+                <a href="https://www.chocochi.com/">View Fullscreen <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="work">
+                <iframe src="https://indiancoffeehouseonline.com/" frameborder="0"></iframe>
+                <a href="https://indiancoffeehouseonline.com/">View Fullscreen <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!---------------Contact------------------------->
+
+<div class="" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mhdrashid142@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8075764747</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/918075764747"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/rashid___raz__?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammedrashidc/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                 <form name="contact-us">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                 </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Rashid All rights reserved</p>
+    </div>
+</div>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxfm_GTD0EKP_cn4DdFOvk9IZ8PT9iAhvgl_ERJP6MHcmaGeZxYX8Sdt4UhHsJFqnl9Ng/exec'
+    const form = document.forms['contact-us']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            form.reset()
+            alert('Success!', response)
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+     
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
